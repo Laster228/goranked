@@ -252,7 +252,7 @@ body {
   font-weight: 600;
   letter-spacing: -0.56px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .button--small {
     width: 100%;
   }
@@ -589,11 +589,6 @@ body {
   font-weight: 700;
   line-height: 1;
 }
-@media screen and (max-width: 768px) {
-  .title--base {
-    font-size: 56px;
-  }
-}
 @media screen and (max-width: 600px) {
   .title--base {
     font-size: 42px;
@@ -678,7 +673,7 @@ body {
     line-height: 1;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 850px) {
   .title--mobile--center {
     text-align: center;
   }
@@ -824,6 +819,7 @@ body {
   width: 100%;
   background: #101010;
   z-index: 30;
+  box-shadow: 0px 5px 40px 0px #01010173;
 }
 @media screen and (max-width: 1024px) {
   .header {
@@ -1678,6 +1674,22 @@ body {
   flex-direction: column;
   gap: 12px;
 }
+@media screen and (max-width: 850px) {
+  .section-header__buttons {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .section-header__buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 600px) {
   .section-header__buttons {
     align-items: center;
@@ -1710,6 +1722,11 @@ body {
 .section__title--small {
   max-width: 600px;
 }
+@media screen and (max-width: 850px) {
+  .section__title--small {
+    max-width: 800px;
+  }
+}
 .section__header {
   padding: 48px;
   border-radius: 40px;
@@ -1740,7 +1757,7 @@ body {
   justify-content: space-between;
   gap: 12px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .section__header--row {
     flex-direction: column;
     align-items: center;
@@ -3154,6 +3171,16 @@ body {
   border-radius: 20px;
   height: 72px;
 }
+@media screen and (max-width: 1024px) {
+  .calculator__block {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .calculator__block {
+    padding: 8px;
+  }
+}
 .calculator__block--communication::before {
   background-image: url("../images/icons/sentiment_satisfied.svg");
 }
@@ -3596,7 +3623,7 @@ body {
   margin: 24px 0 0 0;
   display: flex;
   align-items: stretch;
-  gap: 10px;
+  gap: 16px;
   justify-content: flex-end;
 }
 @media screen and (max-width: 1024px) {
@@ -3612,7 +3639,7 @@ body {
   overflow: hidden;
   background: var(--orange);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .calculator-result {
     flex-direction: column;
   }
@@ -3625,7 +3652,7 @@ body {
   padding: 20px 36px;
   background: var(--background-black);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .calculator-result__text {
     width: 100%;
     text-align: center;
@@ -3670,7 +3697,7 @@ body {
   position: relative;
   z-index: 5;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .tip {
     width: 100%;
   }
