@@ -45,7 +45,7 @@ body {
 
 .widget-wrapper.widget-fab {
   position: fixed;
-  bottom: 40px;
+  bottom: 40px !important;
   animation: animation-toast 0.15s ease-in;
   overflow: hidden;
   
