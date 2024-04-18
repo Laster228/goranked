@@ -43,6 +43,14 @@ body {
   color: var(--text-white-color);
 }
 
+.widget-wrapper.widget-fab {
+  position: fixed;
+  bottom: 40px;
+  animation: animation-toast 0.15s ease-in;
+  overflow: hidden;
+  
+}
+
 .page-wrapper {
   overflow: hidden;
   display: flex;
